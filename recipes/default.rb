@@ -4,7 +4,7 @@
 #
 # Copyright:: 2017, The Authors, All Rights Reserved.
 
-# node.default['rdp']['port'] = 443
+node.default['rdp']['port'] = 443
 
 puts "Port = #{node['rdp']['port']}"
 
