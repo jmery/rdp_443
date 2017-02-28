@@ -1,19 +1,9 @@
 name 'rdp_443'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'all_rights'
-description 'Installs/Configures rdp_443'
-long_description 'Installs/Configures rdp_443'
+maintainer 'Jeff Mery'
+maintainer_email 'jeff@merys.net'
+license 'Apache 2.0'
+description 'Configures RDP to use 443'
+long_description 'Creates inbound TCP and UDP firewall rules.  Changes the RDP to the port specified.'
+issues_url 'https://github.com/jmery/rdp_443/issues' if respond_to?(:issues_url)
+source_url 'https://github.com/jmery/rdp_443' if respond_to?(:source_url)
 version '0.1.0'
-
-# The `issues_url` points to the location where issues for this cookbook are
-# tracked.  A `View Issues` link will be displayed on this cookbook's page when
-# uploaded to a Supermarket.
-#
-# issues_url 'https://github.com/<insert_org_here>/rdp_443/issues' if respond_to?(:issues_url)
-
-# The `source_url` points to the development reposiory for this cookbook.  A
-# `View Source` link will be displayed on this cookbook's page when uploaded to
-# a Supermarket.
-#
-# source_url 'https://github.com/<insert_org_here>/rdp_443' if respond_to?(:source_url)
